@@ -1,0 +1,1 @@
+const { Thoughts } = require('../models/')
