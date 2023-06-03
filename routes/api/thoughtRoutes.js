@@ -19,7 +19,7 @@ router.route('/:userId').post(createThought);
 
 router.route('/:userId/:thoughtId').delete(RemoveThought);
 
-router.route('/:thoughtId/reactions').post(addComment);
+router.route('/:thoughtId/reactions/:userId').post(addComment);
 
 router.route('/:thoughtId/reactions/:reactionId').delete(deleteComment);
 

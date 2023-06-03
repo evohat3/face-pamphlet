@@ -1,4 +1,4 @@
-const { User } = require('../models');
+const { User, Thoughts } = require('../models');
 
 
 module.exports = {
@@ -14,7 +14,7 @@ module.exports = {
       async createUser(req, res) {
         try {
           const user = await User.create(req.body);
-          res.status(200).json(user);
+          res.status(200).json({user, message: `Welcome to Face-pamphlet! make sure to copy your user.id! ${user.id}`});
         } catch (err) {
           res.status(500).json(err);
         }
@@ -28,7 +28,7 @@ module.exports = {
             return res.status(404).json({ message: 'No user with that ID' });
           }
     
-          res.status(200).json(user);
+          res.status(200).json({user, message: 'Single User Retrieved!'});
         } catch (err) {
           res.status(500).json(err);
         }
@@ -48,7 +48,7 @@ module.exports = {
             return res.status(404).json({ message: 'No user with that ID' });
           }
     
-          res.status(200).json(user);
+          res.status(200).json({user, message: `your new username is ${user.username} and your email is ${user.email}`});
         } catch (err) {
           res.status(500).json(err);
         }
@@ -60,8 +60,10 @@ module.exports = {
         if (!user) {
           return res.status(404).json({ message: 'No user with that ID' });
         }
+
+        await Thoughts.deleteMany({ username: user.username });
   
-        res.status(200).json({message: 'User has been deleted'});
+        res.status(200).json({user, message: 'Thank you for Coming!'});
       } catch (err) {
         res.status(500).json(err);
       }
