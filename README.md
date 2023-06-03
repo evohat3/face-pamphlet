@@ -1,0 +1,138 @@
+ 
+# Face-Pamphlet
+---
+---
+## Table of Contents 
+      
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Features](#features)
+  * [How to Contribute](#how-to-contribute)
+  * [Tests](#tests)
+  * [License](#license)
+      
+    
+
+  ![alt text](https://img.shields.io/badge/Badge-MIT%20LICENSE-brightgreen)   ![alt text](https://img.shields.io/github/last-commit/evohat3/face-pamphlet)   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
+
+
+---
+---
+## Description
+---
+---
+      
+          What was the motivation for building this project?
+          - To build a backend API server for a social media website
+      
+      
+          why did you build this project?
+          - in order to understand how to integrate mongoDB into my knowledge base
+      
+      
+          what problem does your project solve?
+          - makes life easier! :)
+      
+      
+          what did you learn in the building process?
+          - the importance of Javascript objects when it comes to mongoDB
+      
+
+      
+## Installation
+  ---
+  ---      
+  
+      How to install
+  
+      - Step 1: clone github repo, open terminal to server.js
+      
+      - Step 2: type npm run seed to seed the database
+      
+      - Step 3: type npm run dev to start a nodemon server locally and then begin hitting the API routes!
+      
+      
+
+## Usage
+---
+---      
+### *How to use*
+#### once the server is started follow the api routes a full list will be notated in api/routes folder in each route file
+      
+![ScreenShot](https://i.imgur.com/Y1kYENQ.jpg)
+
+### [Link to tutorial here](https://drive.google.com/file/d/1Xe6wtPEjIKYQlYSJuBF0-P0es8htF6Rl/view) 
+
+
+
+## Credits
+---
+---     
+Github Repo
+* [evohat3](https://github.com/evohat3)
+
+Collaborators
+* n/a
+      
+Tech
+* express.js, mongoose, nodemon
+
+## Features
+---
+---
+ * easy to install!
+  
+ * easy to use!
+  
+ * instant social media backend!
+
+## How to Contribute
+---
+---     
+ *  n/a     
+
+## Tests
+---
+---
+* run the server and try the routes
+
+##  Questions
+---
+---
+
+contact me at - evolutionSK8boarder@gmail.com
+   
+  
+## License 
+---
+---    
+
+  *  [MIT LINK](https://choosealicense.com/licenses/mit/)
+
+    
+MIT License
+
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
